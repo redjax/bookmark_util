@@ -15,7 +15,6 @@ log = get_logger(__name__, level=logging_settings.LOG_LEVEL)
 
 from utils.constants import default_serialize_dir
 
-
 def msgpack_serialize(
     _json: dict = None, filename: str = None
 ) -> dict[str, Union[bool, str, dict[str, Union[str, dict]]]]:

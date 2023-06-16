@@ -23,7 +23,6 @@ bookmarks_file_path: str = f"{bookmarks_dir}/{bookmarks_file}"
 
 from dataclasses import dataclass, field
 
-
 @dataclass
 class FileObj:
     path_obj: Path = field(default=None)

@@ -3,7 +3,6 @@ from __future__ import annotations
 from pathlib import Path
 from typing import Union
 
-
 def valid_dir(_dir: Union[str, Path] = None) -> Path:
     if not _dir:
         raise ValueError("Missing root_dir value")

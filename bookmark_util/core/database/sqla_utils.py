@@ -13,7 +13,6 @@ import sqlalchemy as sa
 ## Use with print to demo table SQL, i.e. print(CreateTable(SomeClass.__table__))
 from sqlalchemy.schema import CreateTable
 
-
 def print_sql(_class: Any = None) -> None:
     """Print the SQL generated from a Mapped SQLAlchemy class.
 
